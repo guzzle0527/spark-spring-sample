@@ -1,5 +1,5 @@
 package sample.service;
 
 public interface TestService {
-	public String test(String value);
+	public void test(String value);
 }

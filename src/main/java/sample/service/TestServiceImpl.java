@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class TestServiceImpl implements TestService, Serializable {
 
 	@Override
-	public String test(String data) {
-		return data;
+	public void test(String data) {
+		System.out.println(data);
 	}
 }
